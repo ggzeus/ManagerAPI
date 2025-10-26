@@ -1,0 +1,19 @@
+{
+  "prefix": "!",
+  "embedColor": "#7289DA",
+  "ticketSettings": {
+    "maxTicketsPerUser": 3,
+    "supportRoleId": "1366229765517742152"
+  },
+  "licenseSettings": {
+    "autoRoleAssignment": true,
+    "checkInterval": 3600000,
+    "defaultDuration": 30
+  },
+  "messages": {
+    "welcome": "Bem-vindo ao servidor! Use /verify para verificar sua licença.",
+    "verifySuccess": "✅ Licença verificada com sucesso!",
+    "verifyError": "❌ Licença inválida ou expirada.",
+    "ticketCreated": "🎫 Ticket criado com sucesso!"
+  }
+}

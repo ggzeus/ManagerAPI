@@ -1,0 +1,15 @@
+# Railway Deployment Configuration
+# Configuração específica para deploy no Railway
+
+services:
+  bot:
+    build:
+      context: .
+    variables:
+      NODE_ENV: production
+      WEB_SERVER_PORT: ${{ PORT }}
+    healthcheck:
+      path: /health
+      interval: 30s
+      timeout: 10s
+      retries: 3

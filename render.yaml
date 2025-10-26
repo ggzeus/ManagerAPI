@@ -1,0 +1,13 @@
+# Render Deployment Configuration
+# Configuração para deploy no Render.com
+
+builds:
+  - src: "."
+    use: "@vercel/node"
+
+routes:
+  - src: "/(.*)"
+    dest: "/index.js"
+
+env:
+  NODE_ENV: production
